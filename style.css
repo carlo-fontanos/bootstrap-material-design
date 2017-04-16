@@ -11,7 +11,7 @@ body { background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
 
 /* Make columns have the same heights */
 .equal { display: table; }
-.equal .col { float: none; display: table-cell; vertical-align: top; min-height: 150px; }
+.equal .col { float: none; display: table-cell; vertical-align: top; }
 
 /* Center element vertically and horizontally */
 .center-element { position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%); }
@@ -32,7 +32,7 @@ body { background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
 
 @media screen and (max-width: 768px) {
 	.equal { display: block; }
-	.equal .col { float: initial; display: block; vertical-align: initial; }
+	.equal .col { float: initial; display: block; vertical-align: initial; min-height: 150px; }
 }
 
 @media screen and (max-width: 480x) {
