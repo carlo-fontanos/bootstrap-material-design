@@ -6,7 +6,7 @@ body { background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
 .card { box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); background-color: #fff; margin-bottom: 48px; }
 .card .card-header { padding: 25px 40px 0;  }
 .card .card-body { padding: 15px 40px 25px; }
-.card .card-footer { border-top: 1px solid rgba(0, 0, 0, 0.12); padding: 15px 40px; }
+.card .card-footer { border-top: 1px solid rgba(0, 0, 0, 0.12); outline: 1px solid rgba(255, 255, 255, 0.5); padding: 15px 40px; }
 .card .card-option { float: right; font-size: 20px; margin: 15px; }
 
 /* Make columns have the same heights */
@@ -21,7 +21,7 @@ body { background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
 .headline { margin-bottom: 48px; }
 .headline .headline-title { padding: 60px 40px; }
 .headline .headline-excerpt { padding: 20px 40px; }
-.headline .headline-shade { background-color: rgba(0,0,100,0.3);; }
+.headline .headline-shade { background-color: rgba(0,0,100,0.3); }
 
 
 @media screen and (max-width: 1200px) {
