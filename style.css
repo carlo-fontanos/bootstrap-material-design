@@ -16,6 +16,8 @@ body { background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
 /* Center element vertically and horizontally */
 .center-element { position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%); }
 
+.text-white { color: #fff; }
+
 .headline { margin-bottom: 48px; }
 .headline .headline-title { padding: 60px 40px; }
 .headline .headline-excerpt { padding: 20px 40px; }
