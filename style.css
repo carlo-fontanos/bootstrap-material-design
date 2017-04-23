@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto'); /* font-family: 'Roboto', sans-serif; */
 
 body { background-color: #f5f5f5; font-family: "Roboto","Helvetica","Arial",sans-serif; color: #757575; line-height: 18px; }
+ul, ol { margin: 0; margin-left: 18px; padding: 0; }
 
 /* Added card-style layout */
 .card { box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); background-color: #fff; color: rgba(0,0,0,.54); margin-bottom: 48px; }
@@ -8,6 +9,7 @@ body { background-color: #f5f5f5; font-family: "Roboto","Helvetica","Arial",sans
 .card .card-body { padding: 15px 40px 25px; }
 .card .card-footer { border-top: 1px solid rgba(0, 0, 0, 0.12); outline: 1px solid rgba(255, 255, 255, 0.5); padding: 15px 40px; }
 .card .card-option { float: right; font-size: 20px; margin: 15px; }
+.card .card-body.single p { font-size: 16px; line-height: 150%; margin-top: 20px; }
 
 /* Make columns have the same heights */
 .equal { display: table; }
@@ -49,6 +51,13 @@ a.text-black:hover { color: #555; }
 .ripple:focus:not(:active)::after { animation: ripple 0.8s ease-out; }
 @keyframes ripple { 0% { transform: scale(0, 0); opacity: 1; } 20% { transform: scale(25, 25); opacity: 1; } 100% { opacity: 0; transform: scale(40, 40); } }
 
+/* Lift container above */
+.lift { position: absolute; top: -100px; }
+.lift-2x { position: absolute; top: -150px; }
+
+/* Label override */
+.label { border-radius: 0; letter-spacing: 0.3px; font-weight: normal; box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); }
+
 @media screen and (max-width: 1200px) {
 
 }
@@ -60,6 +69,8 @@ a.text-black:hover { color: #555; }
 @media screen and (max-width: 768px) {
 	.equal { display: block; }
 	.equal .col { float: initial; display: block; vertical-align: initial; min-height: 150px; }
+	
+	.lift { position: static; }
 }
 
 @media screen and (max-width: 480x) {
