@@ -40,7 +40,7 @@
 </div>
 
 <span class="btn-floating">
-	<a href="javascript:void(0);" class="btn btn-pink ripple text-uppercase">View Source</a>
+	<a href="javascript:void(0);" class="btn btn-blue ripple text-uppercase">View Source</a>
 </span>
 
 <?php require_once('footer.php'); ?>
