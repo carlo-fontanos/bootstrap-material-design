@@ -2,7 +2,7 @@
 
 <div class="container-fluid page">
 	<div class="row">
-		<div class="page-background" style="background: #b53f3f;"></div>
+		<div class="page-background" style="background: #3E50B4;"></div>
 		<div class="container">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="page-content">
@@ -40,7 +40,7 @@
 </div>
 
 <span class="btn-floating">
-	<a href="javascript:void(0);" class="btn btn-blue ripple text-uppercase">View Source</a>
+	<a href="javascript:void(0);" class="btn btn-pink btn-lg btn-circle ripple">+</a>
 </span>
 
 <?php require_once('footer.php'); ?>
