@@ -10,6 +10,7 @@ ul, ol { margin: 0; margin-left: 18px; padding: 0; }
 .card .card-footer { border-top: 1px solid rgba(0, 0, 0, 0.12); outline: 1px solid rgba(255, 255, 255, 0.5); padding: 15px 40px; }
 .card .card-option { float: right; font-size: 20px; margin: 15px; }
 .card .card-body.single p { font-size: 16px; line-height: 150%; margin-top: 20px; }
+.card-sm .card-header, .card-sm .card-body, .card-sm .card-footer { padding: 15px; }
 
 /* Make columns have the same heights */
 .equal { display: table; }
@@ -57,6 +58,13 @@ a.text-black:hover { color: #555; }
 
 /* Label override */
 .label { border-radius: 0; letter-spacing: 0.3px; font-weight: normal; box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); }
+
+.page .page-background { height: 40vh; flex-shrink: 0; width: 100%; }
+.page .page-content { margin-bottom: 80px; box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2); background-color: #fff; border-radius: 2px; padding: 80px 56px; margin-top: -32vh; flex-shrink: 0; }
+.page .page-content p { font-size: 14px; margin: 0 0 16px; line-height: 24px; font-weight: 400; color: #424242; }
+.page .page-content h1 { font-size: 40px; }
+.page .page-content h2 { font-size: 34px; }
+.page .page-content h1, .page .page-content h2 { margin-top: 48px; margin-bottom: 24px; line-height: 40px; color: #424242; }
 
 @media screen and (max-width: 1200px) {
 
